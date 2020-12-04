@@ -1,0 +1,45 @@
+h1{
+    color:rgb(37, 12, 150);
+     display: inline-block;
+    clear: left;
+    width: 250px;
+    text-align: center;
+}
+h2{
+    color:red;
+}
+
+body{
+
+    margin: auto;
+    max-width: 900px;
+    padding-top: 100px;
+    
+}
+
+.lab{
+
+    float:left;
+}
+
+input{
+
+padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-left: 30px;
+  position: relative;
+  font-weight: bold;
+ 
+}
+
+label{
+    display: inline-block;
+    clear: left;
+    width: 250px;
+    text-align: right;
+    font-weight: bold;
+    
+  
+}

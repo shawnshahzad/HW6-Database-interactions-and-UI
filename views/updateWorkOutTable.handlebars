@@ -1,0 +1,26 @@
+<h2>Update Exercise</h2>
+
+<form action="/updateReturn">
+    <label for="exercise">Workout Routine:</label>
+    <input type="text" name="exercise" id="exercise" placeholder = "Edit Excercise" value="{{results.name}}"><br>
+    
+    <label for="reps">Reps:</label>
+    <input type="number" name="reps" id="reps" placeholder = "EditReps"value="{{results.reps}}"><br>
+    
+    <label for="weight"> Weight:</label>
+    <input type="number" name="weight" id="weight" placeholder = "Edit Weight" value="{{results.weight}}"><br>
+
+    <label for="date">Date:  </label>
+    <input type="  date" name="date" id="date" placeholder = "Edit Date" value="{{results.date}}"><br>
+
+    <label for="unit">Unit:</label>
+    <input type="text" name="unit" id="unit" placeholder ="Edit lbs or kg" value="{{results.unit}}"><br>
+
+    <input type="hidden" name="id" value={{results.id}}>
+    <input type="submit" name="updateExercise" value="Submit" id="updateExercise">
+</form>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/locale/af.js"></script>
+<script src="./script.js"></script>
